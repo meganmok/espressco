@@ -1,5 +1,6 @@
 # The Espressco ☕
-## Thoughts Brewed. Thoughts Espressed.
+
+Thoughts Brewed. Thoughts Espressed.
 
 In collaboration with designer Christina Lin, the founder of theEspressco.
 
