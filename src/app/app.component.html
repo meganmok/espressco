@@ -29,7 +29,29 @@
 </div>
 
 <div>
-  <a href="https://www.etsy.com/listing/1368578550/2023-bunny-poster-new-year-poster-rabbit?click_key=77e56582bc6ecc76eb2768a51bce0cbcdd6ffe5a%3A1368578550&click_sum=97841874&ref=shop_home_active_3" target="_blank" style="text-decoration: none;">
+  <a href="https://www.etsy.com/shop/theespressco" target="_blank" style="text-decoration: none;">
+  <img 
+    src="assets/dooropen.png" 
+    alt="Door Open" 
+    style="
+      position: absolute; 
+      top: 63.25%; 
+      left: 50%; 
+      transform: translate(-50%, -50%); 
+      z-index: 10; 
+      height: 240px; 
+      width: auto; 
+      opacity: 0; 
+      transition: opacity 0.3s;
+      cursor: pointer;"
+    onmouseover="this.style.opacity='1'" 
+    onmouseout="this.style.opacity='0'"
+  />
+  </a>
+</div>
+
+<div>
+  <a href="https://theespressco.mailerpage.io/my-work/no-1-new-years">
   <img 
     src="assets/hopscotch.png" 
     alt="Bunnies Playing Hopscotch" 
@@ -67,6 +89,9 @@ style="
     onmouseover="this.style.opacity='1'" 
     onmouseout="this.style.opacity='0'"
 />
+</a>
+
+<a href="https://theespressco.mailerpage.io/about" target="_blank" style="text-decoration: none;">
 <img src="assets/bluebear.gif" alt="Blue Bear" 
 style="
       position: absolute; 
@@ -81,5 +106,5 @@ style="
       cursor: pointer;"
     onmouseover="this.style.opacity='1'" 
     onmouseout="this.style.opacity='0'"/>
-
+</a>
 <router-outlet />
